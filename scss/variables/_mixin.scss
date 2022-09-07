@@ -1,0 +1,5 @@
+@mixin fondos ($colorfondo) {
+    background-color: $colorfondo;
+    color: black;  
+    padding: 1rem;  
+}

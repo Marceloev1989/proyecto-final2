@@ -1,0 +1,138 @@
+/* greed productos */
+.titulo-productos {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.contenido {
+    background-color: rgb(224, 231, 229)    ;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+    justify-items: center;
+  
+    grid-template-areas:
+        "cremoso porsalut porsalutss porsalutl"
+        "tybo danbo mozzarella cheddar"
+        "tilsit azul holanda fontina"
+        "gouda pategra fimbo sardo"
+        "regianito gruyerito goya lechepolvo";
+        justify-content: center
+}
+
+.cremoso {
+    grid-area: cremoso;
+}
+
+.porsalut {
+    grid-area: porsalut;
+}
+
+.porsalutss {
+    grid-area: porsalutss;
+}
+
+.porsalutl {
+    grid-area: porsalutl;
+}
+
+.tybo {
+    grid-area: tybo;
+}
+
+.danbo {
+    grid-area: danbo;
+}
+
+.mozzarella {
+    grid-area: mozzarella;
+}
+
+.cheddar {
+    grid-area: cheddar;
+}
+
+.tilsit {
+    grid-area: tilsit;
+}
+
+.azul {
+    grid-area: azul;
+}
+
+.holanda {
+    grid-area: holanda;
+}
+
+.fontina {
+    grid-area: fontina;
+}
+
+.gouda {
+    grid-area: gouda;
+}
+
+.pategra {
+    grid-area: pategra;
+}
+
+.fimbo {
+    grid-area: fimbo;
+}
+
+.sardo {
+    grid-area: sardo;
+}
+
+.regianito {
+    grid-area: regianito;
+}
+
+.gruyerito {
+    grid-area: gruyerito;
+}
+
+.goya {
+    grid-area: goya;
+}
+
+.lechepolvo {
+    grid-area: lechepolvo;
+}
+.contenido div{
+    height: 25vh;
+    width: 20vh;
+    overflow: hidden;
+}
+
+.contenido div img {
+    height: 20vh; 
+
+}
+/* mediaquerys */
+@media (max-width: 768px){
+    .contenido {
+        grid-template-areas:
+        "cremoso cremoso cremoso cremoso"
+        "porsalut porsalut porsalut porsalut"
+        "porsalutss porsalutss porsalutss porsalutss" 
+        "porsalutl porsalutl porsalutl porsalutl"
+        "tybo tybo tybo tybo" 
+        "danbo danbo danbo danbo" 
+        "mozzarella mozzarella mozzarella mozzarella" 
+        "cheddar cheddar cheddar cheddar"
+        "tilsit tilsit tilsit tilsit"
+        "azul azul azul azul" 
+        "holanda holanda holanda holanda"
+        "fontina fontina fontina fontina"
+        "gouda gouda gouda gouda" 
+        "pategra pategra pategra pategra" 
+        "fimbo fimbo fimbo fimbo" 
+        "sardo sardo sardo sardo"
+        "regianito regianito regianito regianito" 
+        "gruyerito gruyerito gruyerito gruyerito" 
+        "goya goya goya goya" 
+        "lechepolvo lechepolvo lechepolvo lechepolvo";
+    }
+   }

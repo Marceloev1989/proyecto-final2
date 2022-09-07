@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Jost:wght@400;500 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables/extend';
+@import './variables/mixin';
+@import './secciones/header';
+@import './secciones/index';
+@import './secciones/empresa';
+@import './secciones/novedades';
+@import './secciones/productos';
+@import './secciones/contacto';
+@import './secciones/footer';

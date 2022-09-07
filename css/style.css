@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Jost:wght@400;500 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.empresa {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400; }
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10; }
+  header nav div div ul li {
+    font-weight: 600; }
+    header nav div div ul li:hover {
+      text-shadow: 0 0 10px yellow; }
+
+.banner {
+  width: 100%;
+  background-size: cover; }
+
+/* cards */
+.color-card {
+  background-color: rgba(0, 0, 255, 0.322); }
+
+.cards {
+  display: flex;
+  justify-content: space-between; }
+
+/* mediaquerys */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center; } }
+
+.empresa {
+  background-color: rgba(245, 229, 229, 0.534);
+  color: black;
+  padding: 1rem; }
+
+/* greed productos */
+.titulo-productos {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px; }
+
+.contenido {
+  background-color: #e0e7e5;
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+  justify-items: center;
+  grid-template-areas: "cremoso porsalut porsalutss porsalutl" "tybo danbo mozzarella cheddar" "tilsit azul holanda fontina" "gouda pategra fimbo sardo" "regianito gruyerito goya lechepolvo";
+  justify-content: center; }
+
+.cremoso {
+  grid-area: cremoso; }
+
+.porsalut {
+  grid-area: porsalut; }
+
+.porsalutss {
+  grid-area: porsalutss; }
+
+.porsalutl {
+  grid-area: porsalutl; }
+
+.tybo {
+  grid-area: tybo; }
+
+.danbo {
+  grid-area: danbo; }
+
+.mozzarella {
+  grid-area: mozzarella; }
+
+.cheddar {
+  grid-area: cheddar; }
+
+.tilsit {
+  grid-area: tilsit; }
+
+.azul {
+  grid-area: azul; }
+
+.holanda {
+  grid-area: holanda; }
+
+.fontina {
+  grid-area: fontina; }
+
+.gouda {
+  grid-area: gouda; }
+
+.pategra {
+  grid-area: pategra; }
+
+.fimbo {
+  grid-area: fimbo; }
+
+.sardo {
+  grid-area: sardo; }
+
+.regianito {
+  grid-area: regianito; }
+
+.gruyerito {
+  grid-area: gruyerito; }
+
+.goya {
+  grid-area: goya; }
+
+.lechepolvo {
+  grid-area: lechepolvo; }
+
+.contenido div {
+  height: 25vh;
+  width: 20vh;
+  overflow: hidden; }
+
+.contenido div img {
+  height: 20vh; }
+
+/* mediaquerys */
+@media (max-width: 768px) {
+  .contenido {
+    grid-template-areas: "cremoso cremoso cremoso cremoso" "porsalut porsalut porsalut porsalut" "porsalutss porsalutss porsalutss porsalutss"  "porsalutl porsalutl porsalutl porsalutl" "tybo tybo tybo tybo"  "danbo danbo danbo danbo"  "mozzarella mozzarella mozzarella mozzarella"  "cheddar cheddar cheddar cheddar" "tilsit tilsit tilsit tilsit" "azul azul azul azul"  "holanda holanda holanda holanda" "fontina fontina fontina fontina" "gouda gouda gouda gouda"  "pategra pategra pategra pategra"  "fimbo fimbo fimbo fimbo"  "sardo sardo sardo sardo" "regianito regianito regianito regianito"  "gruyerito gruyerito gruyerito gruyerito"  "goya goya goya goya"  "lechepolvo lechepolvo lechepolvo lechepolvo"; } }
+
+/* contacto */
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; }
+
+.recuadro {
+  height: 8vh;
+  width: 40vw; }
+
+.mensaje {
+  height: 18vh;
+  width: 40vw; }
+
+section {
+  text-align: center;
+  width: 100%; }
+
+/* footer */
+footer {
+  background-color: gray;
+  width: 100%; }
+
+.redes {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.newsletter {
+  text-align: center; }
+
+.derechos {
+  text-align: center;
+  font-size: 12px; }
+
+span {
+  font-family: fantasy;
+  font-size: 16px;
+  text-align: left;
+  line-height: 20px; }

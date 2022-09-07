@@ -1,0 +1,28 @@
+/* footer */
+footer {
+    background-color: gray;
+    width: 100%;
+}
+
+.redes {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.newsletter {
+    text-align: center;
+
+}
+
+.derechos {
+    text-align: center;
+    font-size: 12px;
+}
+span {
+    font-family: fantasy;
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+}

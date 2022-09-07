@@ -1,0 +1,24 @@
+Index keywords
+  lactear-calidad,lacteos,empresa,leche,queso
+index description
+  Lactear es una empresa lactea nacida en Morteros-Còrdoba-Argentina
+
+contacto keywords
+  lactear-calidad,contactate,preguntas,informacion
+contacto description
+  Contactate con nosotros
+
+empresa keywords
+  lactear-calidad,lacteos,empresa,historia,nosotros
+empresa description
+  Nacimos hace mas de 15 años y vamos por muchos mas
+
+novedades keywords
+  lactear-calidad,novedades,recetas,noticias
+novedades description
+  Encontra las mejores recetas y lo ultimo en informacion   
+
+productos keywords
+    lactear-calidad,lacteos,leche,queso,tybo,cremoso
+productos description
+  Conoce todos nuestros productos    
