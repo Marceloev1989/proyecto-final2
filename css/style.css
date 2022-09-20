@@ -142,19 +142,31 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px; }
+  margin: 10px;
+  background-color: rgba(42, 128, 240, 0.315); }
 
 .recuadro {
   height: 8vh;
-  width: 40vw; }
+  width: 40vw;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 3px; }
 
 .mensaje {
   height: 18vh;
-  width: 40vw; }
+  width: 40vw;
+  text-align: center;
+  border-radius: 1rem;
+  margin: 3px; }
 
 section {
   text-align: center;
   width: 100%; }
+
+.boton {
+  width: 100px;
+  margin: 3px;
+  border-radius: 1rem; }
 
 /* footer */
 footer {
