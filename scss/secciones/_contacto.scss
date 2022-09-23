@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    
-    
+
+
 
 }
 
@@ -62,18 +62,21 @@ section {
 .formulariocontacto2 {
     display: flex;
     background-color: blue;
-    width: 25vw;
+    width: 20vw;
     height: 50vh;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: white;
-    h5{
+
+    h5 {
         font-weight: 900;
     }
 }
-.formulariocontacto2 ul li{
+
+.formulariocontacto2 ul li {
     border-bottom: 1px dashed #ebebeb;
 }
+
 ul {
     list-style: none;
 }
@@ -82,4 +85,32 @@ ul {
     display: flex;
     justify-content: space-around;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 92%, rgba(169, 177, 185, 1) 100%);
+}
+
+@media (max-width: 768px) {
+    .formulariogeneral {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacto1 {    
+        flex-direction: column;
+    }
+    .contacto2 {
+        flex-direction: column;
+    }
+    .formulariocontacto2{
+        display: none;
+    }    
+    .boton1{
+        width: 15rem;
+    }
+    .boton2{
+        width: 10rem;
+    }
+    .recuadro{
+        width: 50vw;
+    }
+    .mensaje{
+        width: 50vw;
+    }
 }
