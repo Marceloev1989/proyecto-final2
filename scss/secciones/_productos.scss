@@ -1,139 +1,80 @@
 /* greed productos */
 .titulo-productos {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+   @extend %estilotitulo;
+}
+.interlineado {
+    line-height: 4px;
 }
 
-.contenido {
-    background-color: rgb(224, 231, 229)    ;
+.negrita {
+    font-weight: 600;
+}
+
+.greed-container {
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-    justify-items: center;
-  
+    grid-template-columns: 302px 302px 302px;
+    grid-template-rows: 588px 588px 588px;
+    gap: 10px 10px;
+    grid-auto-flow: row;
     grid-template-areas:
-        "cremoso porsalut porsalutss porsalutl"
-        "tybo danbo mozzarella cheddar"
-        "tilsit azul holanda fontina"
-        "gouda pategra fimbo sardo"
-        "regianito gruyerito goya lechepolvo";
-        justify-content: center
+        "card1 card2 card3"
+        "card4 card5 card6"
+        "card7 card8 card9";
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
 }
 
-.cremoso {
-    grid-area: cremoso;
+.card1 {
+    grid-area: card1;
 }
 
-.porsalut {
-    grid-area: porsalut;
+.card2 {
+    grid-area: card2;
 }
 
-.porsalutss {
-    grid-area: porsalutss;
+.card3 {
+    grid-area: card3;
 }
 
-.porsalutl {
-    grid-area: porsalutl;
+.card4 {
+    grid-area: card4;
 }
 
-.tybo {
-    grid-area: tybo;
+.card5 {
+    grid-area: card5;
 }
 
-.danbo {
-    grid-area: danbo;
+.card6 {
+    grid-area: card6;
 }
 
-.mozzarella {
-    grid-area: mozzarella;
+.card7 {
+    grid-area: card7;
 }
 
-.cheddar {
-    grid-area: cheddar;
+.card8 {
+    grid-area: card8;
 }
 
-.tilsit {
-    grid-area: tilsit;
+.card9 {
+    grid-area: card9;
 }
 
-.azul {
-    grid-area: azul;
-}
 
-.holanda {
-    grid-area: holanda;
-}
-
-.fontina {
-    grid-area: fontina;
-}
-
-.gouda {
-    grid-area: gouda;
-}
-
-.pategra {
-    grid-area: pategra;
-}
-
-.fimbo {
-    grid-area: fimbo;
-}
-
-.sardo {
-    grid-area: sardo;
-}
-
-.regianito {
-    grid-area: regianito;
-}
-
-.gruyerito {
-    grid-area: gruyerito;
-}
-
-.goya {
-    grid-area: goya;
-}
-
-.lechepolvo {
-    grid-area: lechepolvo;
-}
-.contenido div{
-    height: 25vh;
-    width: 20vh;
-    overflow: hidden;
-}
-
-.contenido div img {
-    height: 20vh; 
-
-}
 /* mediaquerys */
 @media (max-width: 768px){
-    .contenido {
+    .greed-container {
         grid-template-areas:
-        "cremoso cremoso cremoso cremoso"
-        "porsalut porsalut porsalut porsalut"
-        "porsalutss porsalutss porsalutss porsalutss" 
-        "porsalutl porsalutl porsalutl porsalutl"
-        "tybo tybo tybo tybo" 
-        "danbo danbo danbo danbo" 
-        "mozzarella mozzarella mozzarella mozzarella" 
-        "cheddar cheddar cheddar cheddar"
-        "tilsit tilsit tilsit tilsit"
-        "azul azul azul azul" 
-        "holanda holanda holanda holanda"
-        "fontina fontina fontina fontina"
-        "gouda gouda gouda gouda" 
-        "pategra pategra pategra pategra" 
-        "fimbo fimbo fimbo fimbo" 
-        "sardo sardo sardo sardo"
-        "regianito regianito regianito regianito" 
-        "gruyerito gruyerito gruyerito gruyerito" 
-        "goya goya goya goya" 
-        "lechepolvo lechepolvo lechepolvo lechepolvo";
+        "card1 card1 card1"
+        "card2 card2 card2"
+        "card3 card3 card3" 
+        "card4 card4 card4"
+        "card5 card5 card5" 
+        "card6 card6 card6" 
+        "card7 card7 card7" 
+        "card8 card8 card8"
+        "card9 card9 card9";
     }
    }
 

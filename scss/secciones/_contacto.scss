@@ -5,8 +5,9 @@
     align-items: center;
     margin: 10px;
 
-
-
+}
+.titulo-contacto{
+    @extend %estilotitulo;
 }
 
 .recuadro {
@@ -15,7 +16,6 @@
     border-radius: 1rem;
     text-align: center;
     margin: 8px;
-
     background: rgb(236, 240, 241);
     background: linear-gradient(110deg, rgba(236, 240, 241, 1) 0%, rgba(255, 255, 255, 1) 92%);
 }
@@ -84,7 +84,6 @@ ul {
 .formulariogeneral {
     display: flex;
     justify-content: space-around;
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 92%, rgba(169, 177, 185, 1) 100%);
 }
 
 @media (max-width: 768px) {

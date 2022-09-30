@@ -1,7 +1,5 @@
 .titulo-novedades{
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 45px;
+    @extend %estilotitulo;
 }
 .foto1{
     display: inline-block;

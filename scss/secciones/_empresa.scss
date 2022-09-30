@@ -1,3 +1,6 @@
+.titulo-empresa {
+    @extend %estilotitulo;
+}
 .empresa {
     @extend %estiloparrafo;
     @include fondos (rgba(245, 229, 229, 0.534));
