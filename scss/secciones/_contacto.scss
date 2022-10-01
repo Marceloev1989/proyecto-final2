@@ -6,7 +6,8 @@
     margin: 10px;
 
 }
-.titulo-contacto{
+
+.titulo-contacto {
     @extend %estilotitulo;
 }
 
@@ -91,25 +92,32 @@ ul {
         flex-direction: column;
         align-items: center;
     }
-    .contacto1 {    
+
+    .contacto1 {
         flex-direction: column;
     }
+
     .contacto2 {
         flex-direction: column;
     }
-    .formulariocontacto2{
+
+    .formulariocontacto2 {
         display: none;
-    }    
-    .boton1{
+    }
+
+    .boton1 {
         width: 15rem;
     }
-    .boton2{
+
+    .boton2 {
         width: 10rem;
     }
-    .recuadro{
+
+    .recuadro {
         width: 50vw;
     }
-    .mensaje{
+
+    .mensaje {
         width: 50vw;
     }
 }
