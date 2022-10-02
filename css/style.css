@@ -101,8 +101,7 @@ header {
 .container-flex {
   width: 100%;
   display: flex;
-  justify-content: center;
-  background: radial-gradient(circle, white 85%, #a9b1b9 100%); }
+  justify-content: center; }
 
 .foto1 {
   display: inline-block;
