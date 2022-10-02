@@ -48,9 +48,11 @@
         list-style: disc;
         margin: 0 20px
     }
-        a{
-            text-decoration: none;color: white;
-        }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 
@@ -59,5 +61,13 @@
     .cards {
         flex-direction: column;
         align-items: center;
+    }
+
+    .redes {
+        flex-direction: column;
+        align-content: center;
+    }
+    .navegador{
+        flex-direction: column;
     }
 }
