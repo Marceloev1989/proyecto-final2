@@ -1,4 +1,4 @@
-.titulo-index{
+.titulo-index {
     @extend %estilotitulo
 }
 
@@ -6,6 +6,8 @@
     width: 100%;
     background-size: cover;
     overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* cards */
@@ -17,6 +19,40 @@
     display: flex;
     justify-content: space-between
 }
+
+.cards {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.header {
+    overflow-x: hidden;
+}
+
+.altura {
+    min-height: 80vh;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.navegador {
+    display: flex;
+
+    li {
+        list-style: disc;
+        margin: 0 20px
+    }
+        a{
+            text-decoration: none;color: white;
+        }
+}
+
 
 /* mediaquerys */
 @media (max-width: 768px) {

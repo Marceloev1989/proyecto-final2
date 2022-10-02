@@ -17,7 +17,9 @@
 .titulo-index, .titulo-empresa, .titulo-novedades, .titulo-productos, .titulo-contacto {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 45px; }
+  font-size: 45px;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 header {
   background-color: white;
@@ -36,7 +38,9 @@ header {
 .banner {
   width: 100%;
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 /* cards */
 .color-card {
@@ -45,6 +49,29 @@ header {
 .cards {
   display: flex;
   justify-content: space-between; }
+
+.cards {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.header {
+  overflow-x: hidden; }
+
+.altura {
+  min-height: 80vh; }
+
+.nav-footer {
+  display: flex;
+  justify-content: center; }
+
+.navegador {
+  display: flex; }
+  .navegador li {
+    list-style: disc;
+    margin: 0 20px; }
+  .navegador a {
+    text-decoration: none;
+    color: white; }
 
 /* mediaquerys */
 @media (max-width: 768px) {
